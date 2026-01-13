@@ -1,0 +1,7 @@
+# Normalize line endings for all text files
+* text=auto eol=lf
+
+# Specific overrides
+*.sh text eol=lf    # Shell scripts always LF
+*.bat text eol=crlf # Batch files always CRLF
+*.jpg binary        # Treat images as binary
